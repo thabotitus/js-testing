@@ -1,2 +1,9 @@
 Hello World!
 
+<p data-update>bar</p>
+
+<script>
+  $(document).ready(function() {
+    $("[data-update]").text('foo');
+  });
+</script>
